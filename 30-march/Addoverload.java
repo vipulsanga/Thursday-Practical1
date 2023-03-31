@@ -5,14 +5,13 @@
 public class Addoverload {
 
 	
-		//int a=10,b=20;
 		public void add(int a,int b)
 		{
-			System.out.println(20+30);
+			System.out.println("method with 2 parameters:"+(20+30));
 		}
 		public void add(int a,int b,int c)
 		{
-			System.out.println(10+20);
+			System.out.println("method with 3 parameters:"+(10+20));
 		}
 
 
